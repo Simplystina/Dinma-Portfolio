@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Check-out Ikenna Eze's frontend developer portfolio website. Ikenna is a frontend web developer based in Nigeria." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Chidinma watu Frontend Web Developer Portfolio Website</title>
+</head>
+
+<body>
+  <!-- ================HEADER====================== -->
+  <header id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Chidinma</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="uil uil-estate nav__icon"></i>Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i>About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-briefcase-alt nav__icon"></i>Portfolio
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-message nav__icon"></i>Contact
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==================== MAIN ======================== -->
+  <main id="main" class="main">
+    <!-- ==================== HOME ======================== -->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/chidinma-nwatu-7ba6051a2/" target="_blank" class="home__social-icon">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://twitter.com/stinachinma" target="_blank"
+              class="home__social-icon">
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+            <a href="https://github.com/simplystina/" target="_blank" class="home__social-icon">
+              <i class="uil uil-github-alt"></i>
+            </a>
+          </div>
+          <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+						        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+						        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+						        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+						        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+						        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+						        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <image class="home__blob-img" x="-40" y="0" xlink:href="assets/images/mypic.jpg" />
+              </g>
+            </svg>
+          </div>
+          <div class="home__data">
+            <h2 class="home__title">Hi, I'm Chidinma</h2>
+            <h1 class="home__subtitle">Frontend Developer</h1>
+            <p class="home__description">
+              I build frontend products with attractive user interfaces.
+            </p>
+            <a href="#contact" class="button button--flex">
+              Contact Me <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================ABOUT ============================= -->
+    <section id="about" class="section about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">A Brief Introduction</span>
+
+      <div class="about__container container grid">
+        <img src="assets/images/webdevv.svg" alt="web developer illustration" class="about__img" />
+        <div class="about__data">
+          <p class="about__description">
+            Hello there! I'm Chidinma, fondly called Dinma. I enjoy creating things that live on
+            the web. I'm a frontend web developer with experience focused 
+            on crafting great web experiences with pixel
+            perfect design.</p>
+          <p> I'm a woman in tech enthusiasts. I love volunteering so I spend alot of my free time volunteering with organisations. 
+           
+          </p>
+          <div class="about__technologies">
+            <p>
+              I am good with but not limited to the following technologies
+            </p>
+            <div class="technologies">
+              <span class="tech__tab">
+                <i class="fab fa-html5"></i>
+                <span>HTML</span>
+              </span>
+              <span class="tech__tab">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS</span>
+              </span>
+              <span class="tech__tab">
+                <i class="fab fa-sass"></i>
+                <span>Python</span>
+              </span>
+              <span class="tech__tab">
+                <i class="fab fa-js-square"></i>
+                <span>JavaScript</span>
+              </span>
+              <span class="tech__tab">
+                <i class="fab fa-react"></i>
+                <span>React.JS</span>
+              </span>
+              <span class="tech__tab">
+                <i class="bx bxl-redux"></i>
+                <span>Redux</span>
+              </span>
+              <span class="tech__tab">
+                <i class="fas fa-terminal"></i>
+                <span>Command Line</span>
+              </span>
+              <span class="tech__tab">
+                <i class="bx bxl-git"></i>
+                <span>Git</span>
+              </span>
+              <span class="tech__tab">
+                <i class="bx bxl-firebase"></i>
+                <span>Chakra UI</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="about__info">
+            <div>
+              <span class="about__info-title">20+</span>
+              <span class="about__info-name">Completed <br />
+                projects</span>
+            </div>
+            <!-- <div>
+							<span class="about__info-title">2+</span>
+							<span class="about__info-name">Years <br> experience</span>
+						</div> -->
+          </div>
+          <div class="about__buttons">
+            <a download href="assets/Chidinma_Nwatu_Resume_New.pdf" class="button button--flex">
+              Download CV <i class="uil uil-download-alt button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== SKILLS ============================== -->
+
+    <!-- ============================ PORTFOLIO ========================= -->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Portfolio</h2>
+      <span class="section__subtitle">Some of my projects. <br> To see more of my projects, check out my <a
+          href="https://github.com/simplystina/" target="_blank">GitHub</a> </span>
+
+      <div class="portfolio__container container swiper-container">
+        <div class="swiper-wrapper">
+          <!-- ================ PROJECT 1 ===================== -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/images/debtfix-website.JPG" alt="frontend web development project screenshot"
+              class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Debtfix</h3>
+              <p class="portfolio__description">
+                Debtfix is a debt managing app that helps users to manage their debts. It does this by allowing users to add creditors, keep track of added debtors, pay debtors and monitor their transactions.
+                Debtfix was developed using Django, paystack gateway, chakra UI, and react.
+              </p>
+              <div class="portfolio__buttons">
+                <a href="https://debtfix.netlify.app/" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  Demo <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a href="https://github.com/Simplystina/AWI-Hackathon" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  GitHub <i class="uil uil-github-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ================ PROJECT 2 ===================== -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/images/movie-website.JPG" alt="frontend web development project screenshot"
+              class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Movie App</h3>
+              <p class="portfolio__description">
+                A fully responsive web application for finding and saving
+                information about your favorite movies and TV shows. It was built with React, Redux & CSS.
+              </p>
+              <div class="portfolio__buttons">
+                <a href="https://movio-webapp.netlify.app/" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  Demo <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a href="https://github.com/Simplystina/movie-website" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  GitHub <i class="uil uil-github-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ================ PROJECT 3 ===================== -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/images/gp3-website.JPG" alt="frontend web development project screenshot"
+              class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Gp3 AI Landing Page</h3>
+              <p class="portfolio__description">
+                This is a fully responsive implementation of a figma designed file of the landing page of a gp3 AI website
+                It was built with react and CSS.
+              </p>
+              <div class="portfolio__buttons">
+                <a href="https://gp3-site.netlify.app/" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  Demo <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a href="https://github.com/Simplystina/Gp3AI-project" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  GitHub <i class="uil uil-github-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ================ PROJECT 4 ===================== -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/images/tracker-website.JPG" alt="frontend web development project screenshot"
+              class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Tracker Application</h3>
+              <p class="portfolio__description">
+                A tracker app built with react, CSS, appwrite backend services that help users save and keep track of their pending job applications and ensure that they get back to them through timely email reminders. 
+                It also serves as a valuable tool to analyse submitted applications.
+              </p>
+              <div class="portfolio__buttons">
+                <a href="https://trackerappwrite.netlify.app/" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  Demo <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a href="https://github.com/Simplystina/Appwrite-Hackathon" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  GitHub <i class="uil uil-github-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- ================ PROJECT 5 ===================== -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/images/space-tourism-website.JPG" alt="frontend web development project screenshot"
+              class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Space Tourism Website</h3>
+              <p class="portfolio__description">
+                This project focuses on implementing the Figma design of a space tourist website. 
+                It was built with react CSS and AOS for animation.
+              </p>
+              <div class="portfolio__buttons">
+                <a href="https://space-tourism-webapp.netlify.app/" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  Demo <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a href="https://github.com/Simplystina/space-tourist-project" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  GitHub <i class="uil uil-github-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- ================ PROJECT 6 ===================== -->
+
+        <div class="portfolio__content grid swiper-slide">
+          <img src="assets/images/github-users-website.JPG" alt="frontend web development project screenshot"
+            class="portfolio__img" />
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">Github Users App</h3>
+            <p class="portfolio__description">
+              This web app utilizes auth0 for authentication and GitHub rest API to build this web app that 
+              allows users to login, 
+              logout, and display GitHub details of any particular username entered.
+               It also utilizes chart for better visualization.
+            </p>
+            <div class="portfolio__buttons">
+              <a href="https://githubappusers.netlify.app/" target="_blank"
+                class="button button--flex button--small portfolio__button">
+                Demo <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+              <a href="https://github.com/Simplystina/github-users-app" target="_blank"
+                class="button button--flex button--small portfolio__button">
+                GitHub <i class="uil uil-github-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+            
+          <!-- ================ PROJECT 7 ===================== -->
+
+      <div class="portfolio__content grid swiper-slide">
+        <img src="assets/images/crypto-website.JPG" alt="frontend web development project screenshot"
+          class="portfolio__img" />
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">CryptoVerse</h3>
+          <p class="portfolio__description">
+            Cryptoverse is a web app built using react js, and coin ranking rapid api. 
+            It is a web app that shows the market price, recent news, 
+            and accurate information about coins in the crypto market.
+          </p>
+          <div class="portfolio__buttons">
+            <a href="https://crypto-verse-project.netlify.app/" target="_blank"
+              class="button button--flex button--small portfolio__button">
+              Demo <i class="uil uil-arrow-right button__icon"></i>
+            </a>
+            <a href="https://github.com/Simplystina/CryptoVerse-Project" target="_blank"
+              class="button button--flex button--small portfolio__button">
+              GitHub <i class="uil uil-github-alt button__icon"></i>
+            </a>
+          </div>
+        </div>
+        </div>
+  
+      </div>
+
+        
+
+      
+
+        <!-- ================= SWIPER ARROWS ===================== -->
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- ======================== PROJECT IN MIND ========================= -->
+    <section class="project section">
+      <div class="project__bg">
+        <div class="project__container container grid">
+          <div class="project__data">
+            <h2 class="project__title">You have a new project?</h2>
+            <p class="project__description">
+              Come on and let's have a chat about it
+            </p>
+            <a href="#contact" class="button button--flex button--white">
+              Contact Me
+              <i class="uil uil-message project__icon button__icon"></i>
+            </a>
+          </div>
+
+          <img src="assets/images/project-img.png" 
+            alt="web development or web design project discussion illustration" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================TESTIMONIAL =================== -->
+
+    <!-- ======================= CONTACT ME =========================== -->
+    <section class="section contact" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Get in touch</span>
+
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="uil uil-phone contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Call Me</h3>
+              <span class="contact__subtitle">+234 810 954 9798</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-envelope contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle">stinachinma@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-map-marker contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">Lagos, Nigeria</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="https://formsubmit.co/1cb4b16c99481628e3a8661aa388d84d" method="POST" class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="name" class="contact__label">Name*</label>
+              <input type="text" id="name" name="Name" class="contact__input" required />
+            </div>
+            <div class="contact__content">
+              <label for="email" class="contact__label">Email*</label>
+              <input type="email" id="email" name="Email" class="contact__input" required />
+            </div>
+          </div>
+          <div class="contact__content">
+            <label for="project" class="contact__label">Project*</label>
+            <input type="text" id="project" name="Project" class="contact__input" required />
+          </div>
+          <div class="contact__content">
+            <label for="message" class="contact__label">Message</label>
+            <textarea id="message" class="contact__input" name="Message" cols="0" rows="7"></textarea>
+          </div>
+          <div>
+            <button class="button button--flex submit__btn" type="submit">
+              Send Message
+              <i class="uil uil-message button__icon"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--================================= FOOTER =========================  -->
+  <footer class="footer" id="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Dinma</h1>
+          <span class="footer__subtitle">Frontend Developer</span>
+        </div>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="footer__link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="footer__socials">
+          <a href="https://www.linkedin.com/in/chidinma-nwatu-7ba6051a2/" target="_blank" class="footer__social">
+            <i class="uil uil-linkedin-alt"></i>
+          </a>
+          <a href="https://www.github.com/simplystina" target="_blank" class="footer__social">
+            <i class="uil uil-github-alt"></i>
+          </a>
+          <a href="https://twitter.com/stinachinma" target="_blank" class="footer__social">
+            <i class="uil uil-twitter-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer__copy">&copy; Dinma</p>
+    </div>
+  </footer>
+
+  <!-- ===================SCROLL TO TOP ============================= -->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

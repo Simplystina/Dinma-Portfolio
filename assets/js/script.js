@@ -91,9 +91,18 @@ window.addEventListener('scroll', scrollTop);
 
 /*============================= THEME SWITCHER ====================================*/
 
+//
+
+
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme';
 const iconTheme = 'uil-sun';
+
+//
+window.onload = function() {
+	document.body.classList['add'](darkTheme)
+  };
+
 
 // Previously selected theme (if user selected)
 const selectedTheme = localStorage.getItem('selected-theme');
